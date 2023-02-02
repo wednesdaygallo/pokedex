@@ -1,0 +1,31 @@
+.search-form {
+  width: 75%;
+  margin: 0.7rem 0 2rem 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+}
+
+label {
+  font-weight: bolder;
+  margin-bottom: 0.2rem;
+  font-weight: bold;
+}
+
+.search-input {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 0.2rem;
+}
+.search-input button {
+  border: none;
+  border-radius: 5px;
+  background-color: #fafafa;
+}
+.search-input input {
+  border-radius: 5px;
+  padding: 0.3rem 1rem;
+}/*# sourceMappingURL=SearchForm.css.map */

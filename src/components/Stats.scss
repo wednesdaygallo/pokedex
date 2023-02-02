@@ -1,0 +1,34 @@
+.stats-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 85%;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.base-stat {
+  color: #313131;
+    background-color: #999;
+    width: 75%;
+    margin: 0 auto;
+    border: 3px inset black;
+    border-radius: 5px;
+    font-family: Digital-7, sans-serif;
+    font-size: 1.5rem;
+    cursor: default;
+
+}
+
+.stat-name {
+    color: #fff;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    cursor: default;
+}
+
+@media (max-width: 480px) {
+  .stat-name {
+    font-size: 0.5rem;
+  }
+}
